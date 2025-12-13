@@ -330,7 +330,7 @@ def main():
             title='Average Screen Time by Gender',
             labels={'Screen_Time_Hours': 'Average Hours', 'Gender': 'Gender'},
             color='Gender',
-            color_discrete_sequence=['#ff7f0e', '#2ca02c'],
+            color_discrete_sequence=['#F54927', '#2ca02c'],
             text='Screen_Time_Hours'
         )
         fig2.update_traces(texttemplate='%{text:.2f} hrs', textposition='outside')
