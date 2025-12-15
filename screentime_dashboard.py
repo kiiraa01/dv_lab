@@ -410,7 +410,7 @@ def main():
             title='Screen Time: Urban vs Rural',
             labels={'Screen_Time_Hours': 'Average Hours', 'Location': 'Location'},
             color='Location',
-            color_discrete_sequence=['#d62728', '#9467bd'],
+            color_discrete_sequence=['#32a852', '#9467bd'],
             text='Screen_Time_Hours'
         )
         fig6.update_traces(texttemplate='%{text:.2f} hrs', textposition='outside')
